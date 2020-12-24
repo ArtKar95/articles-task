@@ -1,0 +1,14 @@
+.accountPage {
+  width: 94%;
+  margin: 32px auto;
+  min-height: 70vh;
+  background-image: linear-gradient(rgb(75, 68, 68), rgb(138, 135, 135));
+  box-shadow: 10px 10px 5px #616060;
+}
+
+.accountPage > div {
+  margin-top: 30px;
+  color: rgb(201, 197, 206);
+  text-align: center;
+  font-size: 31px;
+}

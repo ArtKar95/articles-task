@@ -1,0 +1,25 @@
+.navContainer {
+  grid-area: n;
+  background-color: rgb(75, 68, 68);
+  font-size: 19px;
+  font-weight: 800;
+  user-select: none;
+}
+
+.navContainer > ul {
+  list-style: none;
+  margin-top: 50px;
+  margin-left: -18px;
+}
+
+.navContainer  li {
+  margin-top: 15px;
+}
+
+
+.activeLink {
+  color: rgb(230, 222, 238);
+  text-shadow: 2px 2px 9px rgb(230, 222, 238);
+  font-size: 22px;
+}
+ 

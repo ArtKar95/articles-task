@@ -1,0 +1,42 @@
+.articlePage {
+  width: 94%;
+  margin: 32px auto;
+  min-height: 70vh;
+  background-image: linear-gradient(rgb(75, 68, 68), rgb(138, 135, 135));
+  box-shadow: 10px 10px 5px #616060;
+}
+
+.articlePage > h1 {
+  color: rgb(201, 197, 206);
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 31px;
+}
+
+.info {
+  text-align: right;
+  margin-top: -45px;
+  margin-right: 10px;
+}
+.info > span {
+  color: white;
+}
+
+.articlePage > div > p {
+  font-size: 18px;
+  margin: 0px 70px;
+  color: white;
+  word-break: break-all;
+}
+
+.comments {
+  min-height: 15vh;
+  background-color: rgb(114, 110, 110);
+  margin-top: 8em;
+  margin: 10 30;
+}
+
+
+.comment{
+  color: black;
+}
