@@ -1,15 +1,9 @@
-import { applyMiddleware, compose, createStore } from "redux";
+import { applyMiddleware, createStore } from "redux";
 import thunk from "redux-thunk";
 import taskReduser from "./reduser";
 
 const middleWares = applyMiddleware(thunk);
 
-const store = createStore(
-  taskReduser,
-  compose(
-    middleWares,
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  )
-);
+const store = createStore(taskReduser, middleWares);
 
 export default store;
